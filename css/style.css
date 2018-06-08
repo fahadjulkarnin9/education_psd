@@ -1,0 +1,539 @@
+body{
+    background-image: url(../img/bg-body-large.png)
+}
+/*================Navbar start============*/
+.navbar_section{
+    background-color: #ffd338;
+    min-height: 100px;
+}
+.navbar_section .navbar{
+    padding: 0;
+}
+.nav_color ul li a{
+    font-family: 'Dosis',sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 12px;
+    color: #fff !important;
+    transition: 1s;
+    padding: 0 12px !important;
+}
+
+.nav_color ul li a:hover{
+    background-color: #f05c5c;
+}
+
+.custom_dropdown{
+    box-shadow: none;
+}
+.custom_dropdown a{
+    background:transparent !important;
+    border: none;
+}
+.custom_form{
+    
+}
+.custom_form input{
+    display: none !important;
+    
+}
+.src_btn{
+    border: none!important;
+}
+/*Navbar end*/
+/*================Banner start============*/
+.banner{
+    min-height: 1100px;
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.scroll{
+    margin-top: 1000px;
+    margin-bottom: 20px;
+    font-family: 'lato',sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color:#bbbbbb;
+}
+/*banner end*/
+/*================ kid education 1 start============*/
+.kid_education{
+    padding: 100px;
+    min-height: 500px;
+}
+.education_text{
+    margin-bottom: 50px;
+}
+.education_text h1{
+    font-family: 'Dosis',sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color:#333333;
+    text-transform: uppercase;
+}
+.education_text hr{
+    width: 300px;
+    border: 4px dashed white;
+}
+.about_school{
+    
+}
+.about_school h1{
+    font-family: 'Dosis',sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color:#333333;
+    text-transform: capitalize;
+}
+
+.about_school hr{
+    width: 200px;
+    margin-left: 0;
+    
+}
+.about_school p{
+    font-family: 'lato',sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color:#333333;
+}
+/*kid education 1 end*/
+
+
+/*kid education 1 end*/
+
+/*================ kid education 2 start============*/
+
+.kid_education2{
+    min-height: 400px;
+    background-image: url(../img/kid_education2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.education_text2 hr{
+    width: 250px;
+    border: 2px dashed white; 
+}
+
+.about_school2 h1{
+    font-family: 'Dosis',sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 12px;
+    color: #fff !important;
+    transition: 1s;
+    padding: 0 12px !important;
+}
+.courses_header h1{
+    font-family: 'Dosis',sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color:#333333;
+    text-transform: uppercase;
+}
+/*kid education 2 end*/
+
+/*================ card start============*/
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+}
+
+.card-inverse .btn {
+    border: 1px solid rgba(0, 0, 0, .05);
+}
+
+.profile {
+    position: absolute;
+    top: -25px;
+    right: 40px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.profile-avatar {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-inline {
+    position: relative;
+    top: 0;
+    display: inline-block;
+}
+/*card end*/
+
+.custom_button2{
+    margin: 40px 0px;
+    background-color: #56d47e!important;
+    border-radius: 30px;
+}
+/*<!--    moments section start                -->*/
+.moments{
+    min-height: 800px;
+    background-image: url(../img/moments.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    
+}
+.moments_header{}
+.moments_header h1{
+    
+
+    font-family: 'Dosis',sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color:#333333;
+    text-transform: uppercase;
+
+}
+.moments_header hr{
+    border-top: 4px dashed white;
+    width: 230px;
+}
+.img_gallery{
+    margin: 20px 0;
+    border-radius: 15px;
+}
+.img_view{
+    margin-top: 20px;
+}
+/*<!--    moments section end                -->*/
+/*<!--    Twiiter section start                -->*/
+.twitter{
+    padding: 50px 0;
+    min-height: 300px;
+}
+.twitter img{
+
+}
+.twitter a{
+    color: #1ec0ff;
+}
+
+.twitter_text1{
+    font-family: 'lato',sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color:#333333;
+    line-height: 35px; 
+}
+.twitter_text2{
+    font-family: 'lato',sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color:#1ec0ff; 
+}
+/*<!--    Twiiter section end                -->*/
+/*<!--    Teacher section start                -->*/
+.teacher{}
+.teacher_header{
+    margin-bottom: 35px;
+}
+.teacher_header h1{
+    color: #333333;
+    font-family: 'Dosis',sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.teacher_header hr{
+    width: 300px;
+    border: 2px dashed white
+}
+
+.spacing{
+    margin:20px 0;
+}
+/*<!--    Teacher section end                -->*/
+/*<!--    Counter section start                -->*/
+
+.counters{
+    min-height: 300px;
+    background-color: #6e6e6e;
+    padding: 100px 0;
+}
+.counters p{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif;
+}
+.counter_head{
+
+}
+.counter_head h1{
+    color: #7eda9b;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif;
+    padding-top: 100px;
+}
+.counter_head hr{
+    width: 250px;
+    border: 3px dashed white;
+    margin-bottom: 50px;
+}
+.counter {
+    color: white;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Dosis', sans-serif;
+}
+/*<!--    Counter section end                -->*/
+/*<!--    news               -->*/
+
+.events_n_news {
+    margin-top: 100px;
+}
+
+.events h1, .recent_news h1{
+    color:#4d4d4c;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif; 
+    text-transform: uppercase;
+}
+
+.events hr {
+    width: 200px;
+    border: 3px dashed white;
+    margin-top: 30px;
+    margin-bottom: 100px; 
+    margin-left: 0px;
+}
+
+.calender_text h3, .news_text h3 {
+    color:#4d4d4c;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif; 
+}
+
+.calender_text span {
+    color:#1ec0ff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;  
+}
+
+.calender_text small, .news_text small {
+    color:#4d4d4c;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.pr_0 {
+    padding-right: 0px;
+}
+hr.news_hr {
+    width: 200px;
+    border: 3px dashed white;
+    margin-left: 0px;
+    margin-bottom: 100px; 
+}
+.news_text hr {
+   width: 300px;
+    border: 3px dashed #7eda9b;
+    margin-left: 0px; 
+}
+
+.news_text p {
+    color:#4d4d4c;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+}
+.news_img {
+    border-radius: 10px;
+}
+
+/*<!--    news               -->*/
+/*<!--    contacts               -->*/
+.contact {
+    background-image: url(../img/cloud_low.png);
+    min-height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.instagram_text h1, .newsletter_text h1, .contact_text h1 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;  
+} 
+
+.instagram_text h1 {
+    color: #ffc852;
+}
+.newsletter_text h1 {
+    color: #f05c5c;
+}
+
+.contact_text h1 {
+    color: #56d47e;
+}
+
+.instagram_text hr {
+    border: 3px dotted #ffc852;
+}
+.newsletter_text hr {
+    border: 3px dotted #f05c5c;
+}
+
+.contact_text hr {
+    border: 3px dotted #56d47e;
+}
+.school_feature p span {
+    color: #1ec0ff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+
+.school_feature p {
+    padding-top: 30px;
+    color:#4d4d4c;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+
+.school_feature h4, .newsletter_text p, .contact_details h4 {
+    color:#4d4d4c;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.school_feature-icon {
+    color: #1ec0ff;
+    padding-right: 10px;
+}
+
+.instagram_img {
+    padding-top: 45px;
+}
+
+.contact_details {
+    padding-top: 43px;
+}
+
+
+.contact_icon {
+    color: #e6e6e6;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.newsletter_text p {
+    padding-top: 43px;
+}
+
+.newsletter_icon {
+    padding-top: 20px;
+    color: #cccccc;
+}
+
+.school_feature, .instagram_text, .contact_text, .newsletter_text {
+    margin-top: 250px;
+}
+
+/*<!--    contacts               -->*/
+/*<!--    footer               -->*/
+
+#footerSec{
+    background-color: #ffd338;
+    min-height: 72px;
+}
+.footer_menu ul li a{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    color: white !important;
+    font-weight: bold;
+    padding-right: 30px !important;
+    border-right: 3px solid white;
+    line-height: 8px;
+}
+.footer_menu ul li:last-child a{
+    border-right: none;
+}
+.teacher_tagline_1{
+    color: white !important;
+    font-family: font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    padding-top: 16px;
+    
+}
+
+/*<!--    footer               -->*/
